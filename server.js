@@ -5,7 +5,7 @@ const Article = require('./models/article')
 const articleRouter = require('./routes/articles')
 const methodOverride = require('method-override')
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 9000
 const app = express()
 
 mongoose.connect(process.env.MONGO_URI, {
